@@ -1,52 +1,50 @@
-# DEEP FAKE DETECTION
+# PHISING URL DETECTION
 
 ## PROJECT DESCRIPTION
 
-The problem lies in distinguishing between genuine and fabricated images or videos generated using advanced machine learning techologies, such as deep neural networks, which can generate highly convincing and indistinguishable fakes.
- The challenge is to devise innovative and reliable algorithms and methodologies that can detect deepfakes across various platforms and media formats, enabling users and organizations.
-
+A phishing URL detector is a tool or software designed to identify and flag potentially malicious or fraudulent web addresses (URLs) that are used in phishing attacks. Phishing is a type of cyber attack in which scammers use deceptive tactics to trick individuals into providing sensitive information such as login credentials, credit card numbers, or other personal information.
 
 ## Libraries Used
 
 * Python
+* Pandas
 * Numpy
-* Deep Learning
-* CNN
-* LSTM
+* Skicit Learn
 * Flask
 
+## Accuracy of Models Used
+
+
+ML Model	                           Accuracy	
+0	Gradient Boosting Classifier	     0.974	
+1	CatBoost Classifier	               0.972	
+2	XGBoost Classifier	               0.969
+3	Multi-layer Perceptron	           0.969	
+4	Random Forest	                     0.967
+5	Support Vector Machine	           0.964
+6	Decision Tree	                     0.960	
+7	K-Nearest Neighbors	               0.956
+8	Logistic Regression	               0.934
+9	Naive Bayes Classifier	           0.605
 
 # Steps Done
 
-1.Dataset Preparation: Collect and label a diverse dataset of real and fake videos/images.
+1.Obtain a phishing URL: The first step in using a phishing URL detector is to obtain the URL that you suspect may be part of a phishing attack. This may involve receiving a suspicious email or message containing a link, or encountering a suspicious website while browsing the internet.
 
-2.Data Preprocessing: Split the dataset and preprocess the data, including resizing and normalization.
+2.Input the URL into the detector: Once you have obtained the URL, you can input it into the phishing URL detector. This may involve copying and pasting the URL into a search bar or entering it manually into a software tool.
 
-3.CNN Training: Train a CNN model to extract visual features that distinguish real from fake samples.
+3.Analysis and detection: The phishing URL detector will analyze the URL and compare it to a database of known phishing sites and other suspicious domains. The detector may look for characteristics such as misspellings, unusual domain names, and other indicators of potential fraud or deception.
 
-4.LSTM Training: Extract features using the CNN model and train an LSTM model to capture temporal patterns.
+4.Action: Depending on the results of the analysis, the phishing URL detector may take various actions to protect the user. This may include blocking access to the site, warning the user about the potential risk, or flagging the URL for further investigation.
 
-5.Ensemble Model or Fusion: Combine the outputs of the CNN and LSTM models for improved detection.
-
-6.Evaluation: Assess the model's performance using metrics like accuracy and F1 score on a testing dataset.
-
-7.Deployment and Testing: Deploy the model in real-world applications and continually monitor and update it.
-
-These steps provide a concise overview of the process involved in deep fake detection using CNN and LSTM models.
+5.Reporting and analysis: Some phishing URL detectors may also provide reporting and analysis tools to help users understand the characteristics of phishing attacks and identify patterns or trends in the data.
 
 ## PROJECT SCREENSHOTS
 
-<img width="420" alt="d1" src="https://github.com/Gokulachalam/Phising_Url_Detection/assets/89055461/c785a9f5-c1c8-436d-b269-75b6c304ac2d">
 
-
-<img width="415" alt="d2" src="https://github.com/Gokulachalam/Phising_Url_Detection/assets/89055461/00ec367a-0633-4e39-99e8-d6202627b5d4">
-
+<img width="664" alt="url_detect2" src="https://user-images.githubusercontent.com/89055461/231833743-2a779cf3-dfcd-4c15-9007-1514609ac935.png">
 
 
 
-
-
-
- <img width="386" alt="d3" src="https://github.com/Gokulachalam/Phising_Url_Detection/assets/89055461/3e0d5ba3-08a0-4b08-a420-5776d9da5329">
-
+<img width="649" alt="url_detect3" src="https://user-images.githubusercontent.com/89055461/231834256-bdcd9014-8107-4ea7-a282-e56df84c7c5a.png">
 
